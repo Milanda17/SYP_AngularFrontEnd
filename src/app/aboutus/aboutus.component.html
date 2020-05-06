@@ -1,0 +1,22 @@
+<div class="container">
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Password</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let employee of employees">
+            <td>{{employee.id}}</td>
+            <td>{{employee.name}}</td>
+            <td>{{employee.email}}</td>
+            <td>{{employee.password}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+
